@@ -67,4 +67,4 @@ See [RELEASE.md](RELEASE.md) for detailed release notes.
 
 ## License
 
-Private
+[MIT](LICENSE)
