@@ -1,0 +1,30 @@
+{
+  "name": "jarvis-browser",
+  "version": "1.0.0",
+  "description": "Agentic browser CLI with Role Snapshot + ref-based interactions. Inspired by OpenClaw.",
+  "type": "module",
+  "bin": {
+    "jarvis-browser": "./bin/jarvis-browser.mjs"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "playwright-core": "^1.58.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0",
+    "vitest": "^3.0.0",
+    "@vitest/coverage-v8": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
