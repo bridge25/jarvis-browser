@@ -65,6 +65,8 @@ jarvis-browser get text e5               # 3. Verify (check result)
 
 See [RELEASE.md](RELEASE.md) for detailed release notes.
 
+한국어 릴리즈 노트: [RELEASE-kr.md](RELEASE-kr.md)
+
 ## License
 
 [MIT](LICENSE)
